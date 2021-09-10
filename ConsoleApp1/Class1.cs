@@ -17,10 +17,18 @@ namespace ConsoleApp1
         }
         //age.ageGetSet=20;
         //age.set(10);
+        
+       
         public void createPattern(int n)
         {
             for (int i = n; i > 0; i--)
-{
-	{
-	}
+            {
+                for (int j = i; j > 0; j--)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
 }
