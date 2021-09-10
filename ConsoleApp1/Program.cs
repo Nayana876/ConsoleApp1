@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
 	class Program
 	{
+		//start
 		public static void paint(int n)
         {
 			for (int i = n; i > 0; i--)
